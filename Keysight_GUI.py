@@ -312,7 +312,7 @@ class PowerSupplyControlPanel:
         custom_label = QLabel(self.dialog)
         custom_label.setAlignment(Qt.AlignRight)
         custom_label.setStyleSheet("font-weight: bold; font-size: 6pt;")
-        custom_label.setText("<html>&copy; Achronix 2024 (abnasim) Keysight Power Supply Controller V2.01</html>")
+        custom_label.setText("<html>&copy; Keysight Power Supply Controller V2.01</html>")
         self.dialog_layout.addWidget(custom_label)
 
     def get_ip_address(self):
